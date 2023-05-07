@@ -55,6 +55,24 @@
 
     </div>
     <p>GALÉ</p>
+    <div id="videoWrapper5">
+
+        <script>
+            $(function () {
+                var name = 'praiadarocha';
+                if (name != '') {
+                    $('#videoWrapper5').iolplayer({
+                        video: [{
+                            "videoUrl": "https://video-auth1.iol.pt/beachcam/" + name + "/playlist.m3u8"
+                        }],
+                        project: "beachcam"
+                    });
+                }
+            });
+        </script>
+
+    </div>
+    <p>ROCHA</p>
     <div id="videoWrapper3">
 
         <script>
@@ -91,6 +109,24 @@
 
     </div>
     <p>ARRIFANA</p>
+    <div id="videoWrapper6">
+
+        <script>
+            $(function () {
+                var name = 'bcodeceixe';
+                if (name != '') {
+                    $('#videoWrapper6').iolplayer({
+                        video: [{
+                            "videoUrl": "https://video-auth1.iol.pt/beachcam/" + name + "/playlist.m3u8"
+                        }],
+                        project: "beachcam"
+                    });
+                }
+            });
+        </script>
+
+    </div>
+    <p>ODECEIXE</p>
 
 </body>
 </html>
