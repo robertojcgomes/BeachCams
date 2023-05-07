@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        p {
+          color: navy;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <script type="text/javascript" src="https://d2ktu0kz5kxh3s.cloudfront.net/scripts/2016/aTools.js"></script>
+    <script src="https://content.jwplatform.com/libraries/giBojDlP.js"></script>
+    <script src="https://cdn.iol.pt/js/utils/JW8/iol.player.min.js"></script>
+    
+    <div id="videoWrapper1">
+        <script>
+            $(function () {
+                var name = 'praiadopeneco';
+                if (name != '') {
+                    $('#videoWrapper1').iolplayer({
+                        video: [{
+                            "videoUrl": "https://video-auth1.iol.pt/beachcam/" + name + "/playlist.m3u8"
+                        }],
+                        project: "beachcam"
+                    });
+                }
+            });
+        </script>
+
+    </div>
+    <p>PENECO</p>
+    <div id="videoWrapper2">
+
+        <script>
+            $(function () {
+                var name = 'bcgale';
+                if (name != '') {
+                    $('#videoWrapper2').iolplayer({
+                        video: [{
+                            "videoUrl": "https://video-auth1.iol.pt/beachcam/" + name + "/playlist.m3u8"
+                        }],
+                        project: "beachcam"
+                    });
+                }
+            });
+        </script>
+
+    </div>
+    <p>GALÉ</p>
+    <div id="videoWrapper3">
+
+        <script>
+            $(function () {
+                var name = 'bcamado';
+                if (name != '') {
+                    $('#videoWrapper3').iolplayer({
+                        video: [{
+                            "videoUrl": "https://video-auth1.iol.pt/beachcam/" + name + "/playlist.m3u8"
+                        }],
+                        project: "beachcam"
+                    });
+                }
+            });
+        </script>
+
+    </div>
+    <p>AMADO</p>
+    <div id="videoWrapper4">
+
+        <script>
+            $(function () {
+                var name = 'arrifana';
+                if (name != '') {
+                    $('#videoWrapper4').iolplayer({
+                        video: [{
+                            "videoUrl": "https://video-auth1.iol.pt/beachcam/" + name + "/playlist.m3u8"
+                        }],
+                        project: "beachcam"
+                    });
+                }
+            });
+        </script>
+
+    </div>
+    <p>ARRIFANA</p>
+
+</body>
+</html>
